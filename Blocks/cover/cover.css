@@ -1,0 +1,16 @@
+.cover {
+    position: relative;
+}
+
+.cover:hover {
+    background: #2A2C2F;
+    opacity: 0.8;
+}
+
+.cover:hover .cover__title {
+    color: rgba(255, 255, 255, 1);
+}
+
+.cover:hover .cover__subtitle {
+    opacity: 1;
+}

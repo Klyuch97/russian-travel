@@ -1,0 +1,8 @@
+.photo-grid {
+    margin: 0 auto;
+    max-width: 928px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 78px 0 92px;
+    justify-content: space-between;
+}
