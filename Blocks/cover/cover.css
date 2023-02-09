@@ -1,7 +1,6 @@
 .cover {
     position: relative;
-    max-width: 1184px;
-    max-height: 740px;
+    width: 92.5%;
     margin: 0 auto;
 }
 
@@ -17,3 +16,18 @@
 .cover:hover .cover__subtitle {
     opacity: 1;
 }
+
+@media screen and (max-width:1279px) {
+    .cover {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:1023px) {
+
+} 
+
+@media screen and (max-width:767px) {
+
+} 

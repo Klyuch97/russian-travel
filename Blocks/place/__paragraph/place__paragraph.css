@@ -6,6 +6,20 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
-    min-width: 484px;
     grid-column-start: 2;
+}
+
+
+
+
+@media screen and (max-width:1023px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .place__paragraph {
+        padding-bottom: 25px;
+    }
 }

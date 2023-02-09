@@ -7,8 +7,35 @@
     text-align: center;
     color: #FFFFFF;
     position: absolute;
-    top: 245px;
-    left: 312px;
-    max-width: 560px;
+    top: 33.1%;
+    left: 26.3%;
+    width: 47.29%;
     margin: 0;
+}
+
+@media screen and (max-width:1279px) {
+    .cover__title {
+        top: 30.4%;
+        left: 22.65%;
+        width: 54.7%;
+    }
+}
+
+
+@media screen and (max-width:1023px) {
+    .cover__title {
+        width: 72.92%;
+        top: 23.95%;
+        left: 13.54%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .cover__title {
+        width: 90%;
+        top: 16.5%;
+        left: 5%;
+        font-size: 32px;
+        line-height: 35px;
+    }
 }
