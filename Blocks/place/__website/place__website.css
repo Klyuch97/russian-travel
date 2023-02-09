@@ -1,5 +1,7 @@
 .place__website {
     width: 456px;
-    padding-top: 30px;
-    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: end;
 }

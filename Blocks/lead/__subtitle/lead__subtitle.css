@@ -1,12 +1,32 @@
 .lead__subtitle {
-    color: rgba(255, 255, 255, 1);
-    font-family: Inter;
+    color: #FFFFFF;
+    font-family: 'Inter';
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
+    font-style: normal;
     letter-spacing: 0em;
     text-align: center;
     margin: 0 auto;
     padding-top: 32px;
-    width: 50%;
+    width: 65%;
+}
+
+@media screen and (max-width:1279px) {
+    .lead__subtitle {
+        width: 69%;
+    }
+}
+@media screen and (max-width:1023px) {
+    .lead__subtitle {
+        width: 83.3%;
+    }
+}
+@media screen and (max-width:767px) {
+    .lead__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        width: 90%;
+        padding-top: 16px;
+    }
 }

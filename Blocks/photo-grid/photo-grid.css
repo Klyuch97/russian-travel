@@ -1,8 +1,9 @@
 .photo-grid {
+    max-width: 1184px;
     margin: 0 auto;
-    max-width: 928px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 78px 0 92px;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+    grid-gap: 16px;
+    padding: 92px 0;
 }
