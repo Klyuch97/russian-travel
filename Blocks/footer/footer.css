@@ -4,6 +4,8 @@
     padding-top: 92px;
     padding-bottom: 24px;
     position: relative;
+    display: flex;
+
 }
 
 @media screen and (max-width:1279px) {
@@ -23,6 +25,7 @@
 
 @media screen and (max-width:767px) {
     .footer {
+        display: block;
         width: 58.12%;
         padding-top: 64px;
         padding-bottom: 24px;
