@@ -7,17 +7,13 @@
     line-height: 28px;
     text-align: right;
     color: #FFFFFF;
-    width: 30px;
-    height: 28px;
+    text-decoration: none;
 }
 
 .header__lank-link:hover {
     opacity: 0.5;
 }
 
-@media screen and (max-width:767px) {
-    .header__lank-link {
-        width: 22px;
-        height: 20px;
-    }
+.header__lank-link:last-child {
+  padding-right: 0;
 }
