@@ -1,0 +1,26 @@
+.header__lank-link {
+  padding-right: 18px;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@media screen and (max-width:767px) {
+  .header__lank-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+.header__lank-link:hover {
+  opacity: 0.5;
+}
+
+.header__lank-link:last-child {
+  padding-right: 0;
+}
